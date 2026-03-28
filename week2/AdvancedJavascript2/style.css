@@ -1,0 +1,8 @@
+.modal {
+  position: fixed; top: 20%; left: 50%; transform: translate(-50%,0);
+  background: #fff; padding: 1em; border: 2px solid #ccc; z-index: 1000;
+  display: none;
+  min-width: 300px;
+}
+.modal.active { display: block; }
+#restaurant-table tr { cursor: pointer; }

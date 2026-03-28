@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Filter App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Metropolia Restaurants (Filter: Sodexo & Compass)</h1>
+  <div>
+    <label>
+      <input type="checkbox" id="filter-sodexo" checked>
+      Show Sodexo
+    </label>
+    <label>
+      <input type="checkbox" id="filter-compass" checked>
+      Show Compass
+    </label>
+    <button id="reset">Reset filters</button>
+  </div>
+  <table border="1">
+    <thead>
+      <tr><th>Name</th><th>Company</th></tr>
+    </thead>
+    <tbody id="restaurant-table"></tbody>
+  </table>
+  <div id="modal" class="modal"></div>
+  <div id="error-msg" style="color:red"></div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
