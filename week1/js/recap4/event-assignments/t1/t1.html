@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="t1.css">
+  <script src="t1.js" defer></script>
+</head>
+
+<body>
+  <h1>Todo List</h1>
+  <ul id="todo-list">
+    <!-- Todo items will be rendered here -->
+  </ul>
+
+  <dialog id="add-todo-modal">
+    <h2>Add Todo Item</h2>
+    <form id="add-todo-form">
+      <input type="text" id="new-todo-input" placeholder="Add todo item here" required />
+      <button type="submit">Save</button>
+      <button type="button" id="cancel-btn">Cancel</button>
+    </form>
+  </dialog>
+
+  <button id="open-modal-btn" class="add-btn">Add Todo Item</button>
+</body>
+
+</html>
